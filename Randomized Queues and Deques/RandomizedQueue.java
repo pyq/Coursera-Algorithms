@@ -1,6 +1,8 @@
 import java.util.Iterator;
 public class RandomizedQueue<Item> implements Iterable<Item> {
-	private Item[] a = (Item[]) new Object[1];
+	//use array is much easier than linklist.
+  //linklist implement:https://github.com/kprav/Java/blob/master/Queues/RandomizedQueue.java
+  private Item[] a = (Item[]) new Object[1];
 	private int N = 0;
 	public RandomizedQueue()           // construct an empty randomized queue
    {
